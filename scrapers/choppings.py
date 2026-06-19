@@ -31,7 +31,7 @@ added = 0
 
 chhoping_cat = soup.find_all("h3")
 
-print(chhoping_cat)
+
 for cat in chhoping_cat:
 
     if len(cat) >= 1:
@@ -50,7 +50,7 @@ for cat in chhoping_cat:
                         description,
                         source 
                         )
-                        VALUES(
+                VALUES(
                         ?,?,?,?
                         ) 
                         """,(
